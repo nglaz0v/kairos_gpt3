@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-    "io/ioutil"
+	"io/ioutil"
 	"context"
 	gogpt "github.com/sashabaranov/go-gpt3"
 )

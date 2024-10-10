@@ -20,7 +20,8 @@ class OpenAiApiExample {
 
         System.out.println("\nCreating completion...");
         
-        File file = new File("D:\\GPT-3 Book\\Programming with GPT-3\\GPT-3 Java\\example\\src\\main\\java\\example\\prompts\\summarize_for_a_2nd_grader.txt");
+        //System.out.println(new File("").getAbsolutePath());
+        File file = new File("./src/main/java/example/prompts/summarize_for_a_2nd_grader.txt");
   
         Scanner sc = new Scanner(file);
   

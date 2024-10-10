@@ -1,1 +1,2 @@
 chronological==0.1.1
+openai==0.25

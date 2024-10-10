@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-  
+
 	"context"
 
 	gogpt "github.com/sashabaranov/go-gpt3"
@@ -25,15 +25,15 @@ func main() {
 	
 	max := array[0]
 
-    for i := 1; i < array_size; i++ {
+	for i := 1; i < array_size; i++ {
 
-        if max < array[i] {
+		if max < array[i] {
 
-            max = array[i]
-        }
-    }
+			max = array[i]
+		}
+	}
 
-    fmt.Printf("\nMax element is : %d", max)
+	fmt.Printf("\nMax element is : %d", max)
 	searchResp.SearchResults
 
 }
